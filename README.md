@@ -8,6 +8,8 @@
 
     ```shell
     cd gatsby-contentful-landing
+    npm install
+    npm build
     npm run develop or npm run start to get started
     ```
 

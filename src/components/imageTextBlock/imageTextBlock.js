@@ -2,6 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql, Link } from 'gatsby'
 import Button from '../button/button'
 import * as styles from './imageTextBlock.module.css'
+import arrowImg from '../../../static/learn-more.svg';
 
 const ImageTextBlock = ({title, description, image, link}) => {
 
@@ -11,7 +12,7 @@ const ImageTextBlock = ({title, description, image, link}) => {
 			<div className={styles.imageTextBlockWrapper}>
 				<h5 className={styles.imageTextBlockTitle}>{title}</h5>
 				<p className={styles.imageTextBlockDescription}>{description.internal.content}</p>
-                <a href="#" className={styles.imageTextBlockLink}>{link.label}</a>
+                <a href="#" className={styles.imageTextBlockLink}>{link.label}<img src={arrowImg} className={styles.buttonIcon} /></a>
 			</div>
 		</div>
 	)
