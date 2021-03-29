@@ -13,28 +13,6 @@
     width: 100%;
   }
   
-  @media(min-width: 600px) {
-    .heroDetails {
-      font-size: 16px;
-    }
-
-    .hero {
-      width: auto;
-      max-width: 100%;
-    }
-  }
-  
-  @media(max-width: 1124px) {
-    .heroDetails {
-      font-size: 20px;
-    }
-
-    .hero {
-      margin: auto;
-      margin-top: 112px;
-    }
-  }
-  
   .heroHeadline {
     margin: 0 0 16px 0;
     font-style: normal;
@@ -66,4 +44,73 @@
 
   .heroButtonContainer > button {
     margin-right: 21px;
+  }
+
+  @media(min-width: 600px) {
+    .heroDetails {
+      font-size: 16px;
+    }
+
+    .hero {
+      width: auto;
+      max-width: 100%;
+    }
+  }
+
+  @media(min-width: 1124px) {
+    .heroTitle {
+      width: 740px;
+    }
+
+  }
+  
+  @media(max-width: 1124px) {
+    .heroDetails {
+      font-size: 20px;
+    }
+
+    .hero {
+      margin: auto;
+      margin-top: 112px;
+      text-align: center;
+    }
+
+    .heroButtonContainer {
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 610px) {
+    .heroTitle {
+      font-size: 40px;
+      line-height: 52px;
+    }
+
+    .heroHeadline {
+      font-size: 16px;
+    }
+
+    .heroButtonContainer {
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+    }
+
+    .heroButtonContainer > button {
+      margin-bottom: 16px;
+      margin-right: 0px;
+      width: 200px;
+    }
+
+  }
+  
+  @media (max-width: 390px) {
+    .heroTitle {
+      font-size: 28px;
+      line-height: 32px;
+    }
+
+    .heroHeadline {
+      font-size: 14px;
+    }
   }

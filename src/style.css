@@ -278,7 +278,6 @@ a:focus {
 }
 
 .image-gallery {
-  max-width: var(--maxWidth-full);
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
@@ -302,14 +301,20 @@ a:focus {
 @media (max-width: 1124px) {
   .global-wrapper {
     margin-top: 112px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 120px;
+    margin-right: 120px;
   }
 
 
   .image-gallery {
-    min-width: var(--maxWidth-lg);
     flex-direction: column;
-    /* margin: 112px 200px 0 200px; */
   }  
+}
+
+@media (max-width: 492px) {
+  .global-wrapper {
+    margin-top: 112px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
 }
