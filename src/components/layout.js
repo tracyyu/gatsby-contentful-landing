@@ -10,8 +10,9 @@ const Layout = ({children, imageBackground: {file} }) => {
       position: 'absolute',
       top: 0,
       left: 0,
-      backgroundImage: `url(http:${file.url})`,
-      backgroundSize: 'cover'
+      bottom: 0,
+      background: `url(http:${file.url}) no-repeat center center`,
+      backgroundSize: 'cover',
     }}>
       <div className="overlay-1"></div>
       <div className="overlay-2"></div>

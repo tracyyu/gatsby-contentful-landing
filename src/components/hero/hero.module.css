@@ -11,18 +11,27 @@
     padding: 0 0.5em;
     margin-bottom: 24px;
     width: 100%;
-    max-width: 470px;
   }
   
   @media(min-width: 600px) {
     .heroDetails {
       font-size: 16px;
     }
+
+    .hero {
+      width: auto;
+      max-width: 100%;
+    }
   }
   
-  @media(min-width: 1000px) {
+  @media(max-width: 1124px) {
     .heroDetails {
       font-size: 20px;
+    }
+
+    .hero {
+      margin: auto;
+      margin-top: 112px;
     }
   }
   
@@ -32,6 +41,7 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
+    text-transform: uppercase;
   }
   
   .heroTitle {
@@ -52,4 +62,8 @@
   .heroButtonContainer {
     display: flex;
     justify-content: flex-start;
+  }
+
+  .heroButtonContainer > button {
+    margin-right: 21px;
   }

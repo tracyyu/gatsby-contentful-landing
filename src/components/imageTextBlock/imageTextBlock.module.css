@@ -21,7 +21,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
-	line-height: 22px;
+	line-height: 21.78px;
 	color: #333;
 }
 
@@ -30,9 +30,20 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14.4px;
-	line-height: 22px;
+	line-height: 17.78px;
 }
 
 .imageTextBlockLink {
 	color: #F65928;
+}
+
+@media (max-width: 1124px) {
+	.imageTextBlock {
+		margin-bottom: 3rem;
+	}
+
+	.productImage {
+		width: 250px;
+		height: 250px;
+	}
 }

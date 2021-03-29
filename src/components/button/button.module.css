@@ -1,23 +1,27 @@
 .button {
-    /* width: 141px; */
-    /* height: 40px; */
     border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 21px;
     outline: none;
     border: none;
     cursor: pointer;
+    padding: 12px 24px;
   }
 
 .buttonText {
-    padding: 12px 24px;
     color: #fff;
     font-size: 1rem;
     line-height: 17px;
     font-family: Inter, sans-serif;
     font-weight: 400;
+}
+
+.buttonIcon {
+    width: 8px;
+    height: 8px;
+    color: #fff;
+    margin-left: 8px;
 }
 
 .primary {
