@@ -7,7 +7,8 @@
 1.  **Start developing.**
 
     ```shell
-    gatsby develop
+    cd gatsby-contentful-landing
+    npm run develop or npm run start to get started
     ```
 
 1.  **Open the source code and start editing!**
