@@ -1,0 +1,38 @@
+.imageTextBlock {
+	position: relative;
+	background-color: #fff;
+	color: #333;
+}
+
+.productImage {
+	position: absolute;
+	top: -25%;
+	right: -8%;
+	width: 200px;
+	height: 200px;
+}
+
+.imageTextBlockWrapper {
+	padding: 112px 32px 32px 32px;
+}
+
+.imageTextBlockTitle {
+	margin: 0 0 16px 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333;
+}
+
+.imageTextBlockDescription {
+	margin: 0 0 24px 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14.4px;
+	line-height: 22px;
+}
+
+.imageTextBlockLink {
+	color: #F65928;
+}
