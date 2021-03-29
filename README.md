@@ -1,5 +1,7 @@
 ## 🚀 Quick start
 
+View deployed project: (https://60617fdedc5ef100076b68d0--competent-jones-f34a53.netlify.app/)
+
 1.  **Create a Gatsby site.**
 
   Gatsby landing page created with contentful to query information for Bracket's website
